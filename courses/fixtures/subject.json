@@ -1,0 +1,82 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Robotics",
+    "slug": "robotics-for-beginners"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "Introductory course into robotics",
+    "slug": "introductory-course-into-robotics",
+    "overview": "hbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnj",
+    "created": "2021-12-10T18:34:56.988Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "Chapter One",
+    "description": "hbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnj"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "course": 1,
+    "title": "Chapter Two",
+    "description": "hbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnj"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 3,
+  "fields": {
+    "course": 1,
+    "title": "Chapter Three",
+    "description": "hbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnjhbsdnj"
+  }
+},
+
+   {
+    "model": "courses.subject",
+    "pk": 1,
+    "fields": {
+      "title": "Music",
+      "slug": "music"
+    }
+  },
+  {
+    "model": "courses.subject",
+    "pk": 2,
+    "fields": {
+      "title": "Art",
+      "slug": "art"
+    }
+  },
+  {
+    "model": "courses.subject",
+    "pk": 3,
+    "fields": {
+      "title": "Sport",
+      "slug": "sport"
+    }
+  },
+  {
+    "model": "courses.subject",
+    "pk": 4,
+    "fields": {
+      "title": "Game",
+      "slug": "game"
+    }
+  }
+]
